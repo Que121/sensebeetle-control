@@ -1,0 +1,225 @@
+[0.016s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sensebeetlev10/sl_ws/src/sensebeetle-control/sensebeetle_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.495s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.696s] -- Detecting CXX compile features
+[0.696s] -- Detecting CXX compile features - done
+[0.699s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.019s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.202s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.323s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.930s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.966s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.968s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.026s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.026s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.026s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.026s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.070s] -- Found PythonExtra: .so  
+[3.174s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.202s] -- Added test 'lint_cmake' to check CMake code style
+[3.204s] -- Added test 'xmllint' to check XML markup files
+[3.210s] -- Configuring done
+[3.265s] -- Generating done
+[3.270s] -- Build files have been written to: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces
+[3.289s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sensebeetlev10/sl_ws/src/sensebeetle-control/sensebeetle_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces
+[3.291s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces -- -j8 -l8
+[3.425s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.433s] [  2%] Built target ament_cmake_python_symlink_sensebeetle_interfaces
+[3.447s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.817s] running egg_info
+[3.818s] creating sensebeetle_interfaces.egg-info
+[3.819s] writing sensebeetle_interfaces.egg-info/PKG-INFO
+[3.819s] writing dependency_links to sensebeetle_interfaces.egg-info/dependency_links.txt
+[3.820s] writing top-level names to sensebeetle_interfaces.egg-info/top_level.txt
+[3.820s] writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'
+[3.823s] reading manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'
+[3.824s] writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'
+[3.906s] [  5%] Built target ament_cmake_python_build_sensebeetle_interfaces_egg
+[4.060s] [  5%] Built target sensebeetle_interfaces__cpp
+[4.075s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.094s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.101s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.110s] [ 15%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.c.o[0m
+[4.125s] [ 17%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.c.o[0m
+[4.517s] [ 20%] [32m[1mLinking C shared library libsensebeetle_interfaces__rosidl_generator_c.so[0m
+[4.624s] [ 20%] Built target sensebeetle_interfaces__rosidl_generator_c
+[4.643s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.644s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.653s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.660s] [ 33%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensebeetle_interfaces/msg/twist_stamped_to_wheel__type_support.cpp.o[0m
+[4.661s] [ 33%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensebeetle_interfaces/msg/dr16_dbus_data__type_support.cpp.o[0m
+[4.779s] [ 35%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.cpp.o[0m
+[4.812s] [ 38%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.cpp.o[0m
+[4.831s] [ 41%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensebeetle_interfaces/msg/detail/dds_fastrtps/twist_stamped_to_wheel__type_support.cpp.o[0m
+[5.320s] [ 43%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensebeetle_interfaces/msg/twist_stamped_to_wheel__type_support.cpp.o[0m
+[5.347s] [ 46%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support_c.cpp.o[0m
+[5.409s] [ 48%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.c.o[0m
+[5.423s] [ 51%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensebeetle_interfaces/msg/dr16_dbus_data__type_support.cpp.o[0m
+[5.476s] [ 53%] [32m[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_c.so[0m
+[5.588s] [ 53%] Built target sensebeetle_interfaces__rosidl_typesupport_c
+[5.612s] [ 56%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.c.o[0m
+[5.647s] [ 58%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support_c.cpp.o[0m
+[5.723s] [ 61%] [32m[1mLinking C shared library libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.770s] [ 64%] [32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensebeetle_interfaces/msg/detail/dds_fastrtps/dr16_dbus_data__type_support.cpp.o[0m
+[5.771s] [ 64%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c
+[5.974s] [ 66%] [32m[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_cpp.so[0m
+[6.172s] [ 66%] Built target sensebeetle_interfaces__rosidl_typesupport_cpp
+[6.347s] [ 69%] [32m[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.528s] [ 69%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_cpp
+[6.574s] [ 71%] [32m[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.668s] [ 74%] [32m[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.744s] [ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.851s] [ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c
+[6.915s] [ 74%] Built target sensebeetle_interfaces
+[6.981s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.595s] [ 76%] Built target sensebeetle_interfaces__py
+[10.663s] [ 82%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c.o[0m
+[10.663s] [ 82%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c.o[0m
+[11.026s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so[0m
+[11.123s] [ 84%] Built target sensebeetle_interfaces__rosidl_generator_py
+[11.167s] [ 87%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.173s] [ 92%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.173s] [ 92%] [32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.403s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.413s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.434s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.477s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.485s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_c__pyext
+[11.555s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.590s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces -- -j8 -l8
+[11.753s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces
+[11.778s] -- Install configuration: "RelWithDebInfo"
+[11.780s] -- Execute custom install script
+[11.781s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/rosidl_interfaces/sensebeetle_interfaces
+[11.811s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.h
+[11.839s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.h
+[11.867s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.h
+[11.894s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.h
+[11.907s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.h
+[11.937s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.h
+[11.948s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.h
+[11.975s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.002s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.h
+[12.032s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.sh
+[12.061s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.dsv
+[12.090s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_c.h
+[12.117s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_c.h
+[12.146s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.172s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_c.h
+[12.198s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_c.h
+[12.224s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.252s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__builder.hpp
+[12.280s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.hpp
+[12.309s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__traits.hpp
+[12.337s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__builder.hpp
+[12.366s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.hpp
+[12.393s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__traits.hpp
+[12.419s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.hpp
+[12.452s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.hpp
+[12.480s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_cpp.hpp
+[12.511s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_cpp.hpp
+[12.540s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.568s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_cpp.hpp
+[12.581s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_cpp.hpp
+[12.614s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.sh
+[12.645s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.dsv
+[12.661s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.691s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.721s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.748s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.777s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py
+[12.807s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c
+[12.834s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.863s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.889s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so
+[12.918s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py
+[12.946s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py
+[12.975s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c
+[13.000s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py
+[13.026s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c
+[13.054s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.083s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.113s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.142s] -- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.143s] -- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.144s] -- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.145s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.idl
+[13.172s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.idl
+[13.199s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.msg
+[13.226s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.msg
+[13.253s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/package_run_dependencies/sensebeetle_interfaces
+[13.282s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/parent_prefix_path/sensebeetle_interfaces
+[13.309s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.sh
+[13.337s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.dsv
+[13.367s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.sh
+[13.394s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.dsv
+[13.422s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.bash
+[13.448s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.sh
+[13.476s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.zsh
+[13.505s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.dsv
+[13.531s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.dsv
+[13.558s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/packages/sensebeetle_interfaces
+[13.587s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.615s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.642s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.669s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.696s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.724s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.750s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.777s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig.cmake
+[13.804s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig-version.cmake
+[13.817s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.xml
+[13.845s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so
+[13.847s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so" to ""
+[13.847s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.850s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.851s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so
+[13.852s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.852s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so
+[13.854s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so" to ""
+[13.854s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.858s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.858s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.861s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.861s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so
+[13.863s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.912s] Listing '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces'...
+[13.912s] Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py'...
+[13.913s] Listing '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg'...
+[13.913s] Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py'...
+[13.913s] Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py'...
+[13.913s] Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py'...
+[13.922s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so
+[13.922s] -- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so" to ""
+[13.923s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport.cmake
+[13.923s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[13.924s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.924s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[13.924s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.925s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[13.925s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport.cmake
+[13.926s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[13.926s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cppExport.cmake
+[13.926s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.927s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[13.927s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.927s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[13.928s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport.cmake
+[13.929s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[13.929s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport.cmake
+[13.930s] -- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake
+[13.931s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces

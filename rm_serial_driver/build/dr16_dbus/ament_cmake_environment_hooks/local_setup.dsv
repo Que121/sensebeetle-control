@@ -1,0 +1,3 @@
+source;share/dr16_dbus/environment/ament_prefix_path.sh
+source;share/dr16_dbus/environment/library_path.sh
+source;share/dr16_dbus/environment/path.sh

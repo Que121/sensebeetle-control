@@ -1,0 +1,11 @@
+source;share/dr16_dbus/hook/cmake_prefix_path.ps1
+source;share/dr16_dbus/hook/cmake_prefix_path.dsv
+source;share/dr16_dbus/hook/cmake_prefix_path.sh
+source;share/dr16_dbus/hook/ld_library_path_lib.ps1
+source;share/dr16_dbus/hook/ld_library_path_lib.dsv
+source;share/dr16_dbus/hook/ld_library_path_lib.sh
+source;share/dr16_dbus/local_setup.bash
+source;share/dr16_dbus/local_setup.dsv
+source;share/dr16_dbus/local_setup.ps1
+source;share/dr16_dbus/local_setup.sh
+source;share/dr16_dbus/local_setup.zsh

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus/libdr16_dbus.so" "TARGETS" "dr16_dbus" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

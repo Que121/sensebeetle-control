@@ -1,0 +1,7 @@
+{
+  "package_name": "sensebeetle_interfaces",
+  "non_idl_tuples": [
+    "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/sensebeetle_interfaces:msg/TwistStampedToWheel.msg",
+    "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/sensebeetle_interfaces:msg/Dr16DbusData.msg"
+  ]
+}

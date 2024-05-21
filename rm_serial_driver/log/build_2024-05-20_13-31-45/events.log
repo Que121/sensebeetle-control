@@ -1,0 +1,959 @@
+[0.000000] (-) TimerEvent: {}
+[0.001172] (sensebeetle_interfaces) JobQueued: {'identifier': 'sensebeetle_interfaces', 'dependencies': OrderedDict()}
+[0.001314] (dr16_dbus) JobQueued: {'identifier': 'dr16_dbus', 'dependencies': OrderedDict([('sensebeetle_interfaces', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces')])}
+[0.001524] (rm_serial_driver) JobQueued: {'identifier': 'rm_serial_driver', 'dependencies': OrderedDict([('sensebeetle_interfaces', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces')])}
+[0.001658] (sensebeetle_interfaces) JobStarted: {'identifier': 'sensebeetle_interfaces'}
+[0.013759] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'cmake'}
+[0.014312] (sensebeetle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/sensebeetle_interfaces', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099306] (-) TimerEvent: {}
+[0.156252] (sensebeetle_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199419] (-) TimerEvent: {}
+[0.278765] (sensebeetle_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.290830] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299645] (-) TimerEvent: {}
+[0.400530] (-) TimerEvent: {}
+[0.484897] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.495415] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.496054] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.496473] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500189] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500718] (-) TimerEvent: {}
+[0.601285] (-) TimerEvent: {}
+[0.685500] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.696218] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.696973] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.697705] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700053] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701349] (-) TimerEvent: {}
+[0.801933] (-) TimerEvent: {}
+[0.902704] (-) TimerEvent: {}
+[1.003413] (-) TimerEvent: {}
+[1.019859] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.103609] (-) TimerEvent: {}
+[1.129871] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.203217] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.203876] (-) TimerEvent: {}
+[1.207030] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.216008] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.274132] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304103] (-) TimerEvent: {}
+[1.324383] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.404365] (-) TimerEvent: {}
+[1.505087] (-) TimerEvent: {}
+[1.605854] (-) TimerEvent: {}
+[1.706584] (-) TimerEvent: {}
+[1.807313] (-) TimerEvent: {}
+[1.908009] (-) TimerEvent: {}
+[1.931714] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.008257] (-) TimerEvent: {}
+[2.108964] (-) TimerEvent: {}
+[2.209766] (-) TimerEvent: {}
+[2.310519] (-) TimerEvent: {}
+[2.356905] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.410591] (-) TimerEvent: {}
+[2.527356] (-) TimerEvent: {}
+[2.627717] (-) TimerEvent: {}
+[2.728101] (-) TimerEvent: {}
+[2.828484] (-) TimerEvent: {}
+[2.917716] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.928571] (-) TimerEvent: {}
+[2.967500] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.969593] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.027469] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.027740] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.027831] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.027910] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.028651] (-) TimerEvent: {}
+[3.071636] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.128778] (-) TimerEvent: {}
+[3.175732] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.203971] (sensebeetle_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.205544] (sensebeetle_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.210963] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.233026] (-) TimerEvent: {}
+[3.266336] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.271251] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces\n'}
+[3.286325] (sensebeetle_interfaces) CommandEnded: {'returncode': 0}
+[3.291344] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'build'}
+[3.291510] (sensebeetle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.333146] (-) TimerEvent: {}
+[3.426595] (sensebeetle_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.433296] (-) TimerEvent: {}
+[3.433992] (sensebeetle_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_sensebeetle_interfaces\n'}
+[3.448460] (sensebeetle_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.533666] (-) TimerEvent: {}
+[3.634470] (-) TimerEvent: {}
+[3.735249] (-) TimerEvent: {}
+[3.818070] (sensebeetle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.819389] (sensebeetle_interfaces) StdoutLine: {'line': b'creating sensebeetle_interfaces.egg-info\n'}
+[3.820294] (sensebeetle_interfaces) StdoutLine: {'line': b'writing sensebeetle_interfaces.egg-info/PKG-INFO\n'}
+[3.820915] (sensebeetle_interfaces) StdoutLine: {'line': b'writing dependency_links to sensebeetle_interfaces.egg-info/dependency_links.txt\n'}
+[3.821324] (sensebeetle_interfaces) StdoutLine: {'line': b'writing top-level names to sensebeetle_interfaces.egg-info/top_level.txt\n'}
+[3.821708] (sensebeetle_interfaces) StdoutLine: {'line': b"writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'\n"}
+[3.823990] (sensebeetle_interfaces) StdoutLine: {'line': b"reading manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'\n"}
+[3.824873] (sensebeetle_interfaces) StdoutLine: {'line': b"writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'\n"}
+[3.835592] (-) TimerEvent: {}
+[3.906821] (sensebeetle_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_sensebeetle_interfaces_egg\n'}
+[3.935875] (-) TimerEvent: {}
+[4.036710] (-) TimerEvent: {}
+[4.061530] (sensebeetle_interfaces) StdoutLine: {'line': b'[  5%] Built target sensebeetle_interfaces__cpp\n'}
+[4.076114] (sensebeetle_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.095192] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.102501] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.111838] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.c.o\x1b[0m\n'}
+[4.126740] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.c.o\x1b[0m\n'}
+[4.136907] (-) TimerEvent: {}
+[4.237684] (-) TimerEvent: {}
+[4.338501] (-) TimerEvent: {}
+[4.439258] (-) TimerEvent: {}
+[4.517750] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libsensebeetle_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.539502] (-) TimerEvent: {}
+[4.624842] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 20%] Built target sensebeetle_interfaces__rosidl_generator_c\n'}
+[4.639737] (-) TimerEvent: {}
+[4.644476] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.645453] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.653871] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.661626] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensebeetle_interfaces/msg/twist_stamped_to_wheel__type_support.cpp.o\x1b[0m\n'}
+[4.662350] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensebeetle_interfaces/msg/dr16_dbus_data__type_support.cpp.o\x1b[0m\n'}
+[4.739931] (-) TimerEvent: {}
+[4.780342] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.cpp.o\x1b[0m\n'}
+[4.812869] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.cpp.o\x1b[0m\n'}
+[4.832711] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensebeetle_interfaces/msg/detail/dds_fastrtps/twist_stamped_to_wheel__type_support.cpp.o\x1b[0m\n'}
+[4.840108] (-) TimerEvent: {}
+[4.943104] (-) TimerEvent: {}
+[5.044702] (-) TimerEvent: {}
+[5.145630] (-) TimerEvent: {}
+[5.249448] (-) TimerEvent: {}
+[5.321139] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensebeetle_interfaces/msg/twist_stamped_to_wheel__type_support.cpp.o\x1b[0m\n'}
+[5.347852] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support_c.cpp.o\x1b[0m\n'}
+[5.349668] (-) TimerEvent: {}
+[5.409791] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.c.o\x1b[0m\n'}
+[5.423695] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensebeetle_interfaces/msg/dr16_dbus_data__type_support.cpp.o\x1b[0m\n'}
+[5.449869] (-) TimerEvent: {}
+[5.477251] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.552009] (-) TimerEvent: {}
+[5.588691] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 53%] Built target sensebeetle_interfaces__rosidl_typesupport_c\n'}
+[5.613225] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.c.o\x1b[0m\n'}
+[5.647706] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support_c.cpp.o\x1b[0m\n'}
+[5.652419] (-) TimerEvent: {}
+[5.724133] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.752554] (-) TimerEvent: {}
+[5.771006] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensebeetle_interfaces/msg/detail/dds_fastrtps/dr16_dbus_data__type_support.cpp.o\x1b[0m\n'}
+[5.772357] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 64%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.852899] (-) TimerEvent: {}
+[5.954514] (-) TimerEvent: {}
+[5.975306] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.054638] (-) TimerEvent: {}
+[6.155244] (-) TimerEvent: {}
+[6.173669] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 66%] Built target sensebeetle_interfaces__rosidl_typesupport_cpp\n'}
+[6.255530] (-) TimerEvent: {}
+[6.347981] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.355745] (-) TimerEvent: {}
+[6.456759] (-) TimerEvent: {}
+[6.529600] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 69%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.557036] (-) TimerEvent: {}
+[6.575226] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.657287] (-) TimerEvent: {}
+[6.669131] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.745102] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.757563] (-) TimerEvent: {}
+[6.852587] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.857725] (-) TimerEvent: {}
+[6.916101] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] Built target sensebeetle_interfaces\n'}
+[6.957920] (-) TimerEvent: {}
+[6.982189] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.058075] (-) TimerEvent: {}
+[7.158829] (-) TimerEvent: {}
+[7.259623] (-) TimerEvent: {}
+[7.360394] (-) TimerEvent: {}
+[7.461150] (-) TimerEvent: {}
+[9.721040] (-) TimerEvent: {}
+[9.821807] (-) TimerEvent: {}
+[9.922576] (-) TimerEvent: {}
+[10.023530] (-) TimerEvent: {}
+[10.124308] (-) TimerEvent: {}
+[10.225093] (-) TimerEvent: {}
+[10.325883] (-) TimerEvent: {}
+[10.426664] (-) TimerEvent: {}
+[10.527565] (-) TimerEvent: {}
+[10.596369] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 76%] Built target sensebeetle_interfaces__py\n'}
+[10.627660] (-) TimerEvent: {}
+[10.664487] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c.o\x1b[0m\n'}
+[10.664764] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c.o\x1b[0m\n'}
+[10.727916] (-) TimerEvent: {}
+[10.828812] (-) TimerEvent: {}
+[10.929711] (-) TimerEvent: {}
+[11.027106] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.029945] (-) TimerEvent: {}
+[11.124478] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 84%] Built target sensebeetle_interfaces__rosidl_generator_py\n'}
+[11.130005] (-) TimerEvent: {}
+[11.168616] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.173981] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.174690] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/sensebeetle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.230421] (-) TimerEvent: {}
+[11.331392] (-) TimerEvent: {}
+[11.404565] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.414185] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.431438] (-) TimerEvent: {}
+[11.435338] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.477923] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.486199] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.531679] (-) TimerEvent: {}
+[11.556453] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.591008] (sensebeetle_interfaces) CommandEnded: {'returncode': 0}
+[11.631761] (-) TimerEvent: {}
+[11.732172] (-) TimerEvent: {}
+[11.737391] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'install'}
+[11.752055] (sensebeetle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/sensebeetle_interfaces'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[11.778893] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[11.781187] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.782477] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/rosidl_interfaces/sensebeetle_interfaces\n'}
+[11.812393] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.h\n'}
+[11.832406] (-) TimerEvent: {}
+[11.840468] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.h\n'}
+[11.868211] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.h\n'}
+[11.895965] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.h\n'}
+[11.908487] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.h\n'}
+[11.932455] (-) TimerEvent: {}
+[11.938422] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.h\n'}
+[11.949734] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.h\n'}
+[11.976266] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.003278] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.h\n'}
+[12.032565] (-) TimerEvent: {}
+[12.033166] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.sh\n'}
+[12.062056] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.dsv\n'}
+[12.091622] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_c.h\n'}
+[12.118576] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_c.h\n'}
+[12.132692] (-) TimerEvent: {}
+[12.146853] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.173146] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_c.h\n'}
+[12.199367] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_c.h\n'}
+[12.225321] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.232786] (-) TimerEvent: {}
+[12.253899] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__builder.hpp\n'}
+[12.281409] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.hpp\n'}
+[12.310145] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__traits.hpp\n'}
+[12.332864] (-) TimerEvent: {}
+[12.338326] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__builder.hpp\n'}
+[12.368005] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.hpp\n'}
+[12.394074] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__traits.hpp\n'}
+[12.420482] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.hpp\n'}
+[12.432945] (-) TimerEvent: {}
+[12.453260] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.hpp\n'}
+[12.481748] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.512965] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.533034] (-) TimerEvent: {}
+[12.541994] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.569119] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.582400] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.615689] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.sh\n'}
+[12.633188] (-) TimerEvent: {}
+[12.646403] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.dsv\n'}
+[12.662196] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.692698] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.722268] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.733453] (-) TimerEvent: {}
+[12.749725] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.778925] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py\n'}
+[12.808164] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.833689] (-) TimerEvent: {}
+[12.835514] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.864274] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.889969] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so\n'}
+[12.919579] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py\n'}
+[12.933912] (-) TimerEvent: {}
+[12.946814] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py\n'}
+[12.975758] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c\n'}
+[13.000921] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py\n'}
+[13.027295] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c\n'}
+[13.034141] (-) TimerEvent: {}
+[13.054830] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.084206] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.114154] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.134421] (-) TimerEvent: {}
+[13.142959] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.144131] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.145263] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.146132] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.idl\n'}
+[13.173445] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.idl\n'}
+[13.200499] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.msg\n'}
+[13.227812] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.msg\n'}
+[13.234484] (-) TimerEvent: {}
+[13.254843] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/package_run_dependencies/sensebeetle_interfaces\n'}
+[13.283315] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/parent_prefix_path/sensebeetle_interfaces\n'}
+[13.310639] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.sh\n'}
+[13.334566] (-) TimerEvent: {}
+[13.339002] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.368121] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.sh\n'}
+[13.395881] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.dsv\n'}
+[13.423126] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.bash\n'}
+[13.434667] (-) TimerEvent: {}
+[13.449966] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.sh\n'}
+[13.477371] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.zsh\n'}
+[13.506250] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.dsv\n'}
+[13.532089] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.dsv\n'}
+[13.534744] (-) TimerEvent: {}
+[13.559420] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/ament_index/resource_index/packages/sensebeetle_interfaces\n'}
+[13.588307] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.616101] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.634866] (-) TimerEvent: {}
+[13.643281] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.669999] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.696663] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.725066] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.735118] (-) TimerEvent: {}
+[13.750911] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.778397] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig.cmake\n'}
+[13.805496] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig-version.cmake\n'}
+[13.818391] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.xml\n'}
+[13.835352] (-) TimerEvent: {}
+[13.846133] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so\n'}
+[13.848020] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.848620] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.851689] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.852276] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.853565] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.854025] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so\n'}
+[13.855540] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.855794] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.859234] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.859445] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.862184] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.862496] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.864339] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.913795] (sensebeetle_interfaces) StdoutLine: {'line': b"Listing '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces'...\n"}
+[13.914076] (sensebeetle_interfaces) StdoutLine: {'line': b"Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py'...\n"}
+[13.914237] (sensebeetle_interfaces) StdoutLine: {'line': b"Listing '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg'...\n"}
+[13.914342] (sensebeetle_interfaces) StdoutLine: {'line': b"Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py'...\n"}
+[13.914428] (sensebeetle_interfaces) StdoutLine: {'line': b"Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py'...\n"}
+[13.914510] (sensebeetle_interfaces) StdoutLine: {'line': b"Compiling '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py'...\n"}
+[13.923077] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so\n'}
+[13.923796] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.924232] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.924623] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[13.925002] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.925389] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake\n'}
+[13.925776] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.926184] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[13.926571] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.926974] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[13.927383] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.927750] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.928116] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake\n'}
+[13.928482] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.928847] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[13.929265] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.929746] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[13.930538] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.930979] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake\n'}
+[13.932190] (sensebeetle_interfaces) CommandEnded: {'returncode': 0}
+[13.935509] (-) TimerEvent: {}
+[14.035999] (-) TimerEvent: {}
+[14.136366] (-) TimerEvent: {}
+[14.189448] (sensebeetle_interfaces) JobEnded: {'identifier': 'sensebeetle_interfaces', 'rc': 0}
+[14.192589] (dr16_dbus) JobStarted: {'identifier': 'dr16_dbus'}
+[14.206204] (rm_serial_driver) JobStarted: {'identifier': 'rm_serial_driver'}
+[14.227598] (dr16_dbus) JobProgress: {'identifier': 'dr16_dbus', 'progress': 'cmake'}
+[14.228242] (dr16_dbus) Command: {'cmd': ['/usr/bin/cmake', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[14.235809] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'cmake'}
+[14.236473] (rm_serial_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[14.241184] (-) TimerEvent: {}
+[14.341522] (-) TimerEvent: {}
+[14.350189] (rm_serial_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.400207] (dr16_dbus) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.441666] (-) TimerEvent: {}
+[14.474868] (rm_serial_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.486488] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.535695] (dr16_dbus) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.541746] (-) TimerEvent: {}
+[14.547848] (dr16_dbus) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.642036] (-) TimerEvent: {}
+[14.652804] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.691306] (rm_serial_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.692064] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.693640] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.698001] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.737061] (dr16_dbus) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.742096] (-) TimerEvent: {}
+[14.747462] (dr16_dbus) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.747932] (dr16_dbus) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.748463] (dr16_dbus) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.752744] (dr16_dbus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.842219] (-) TimerEvent: {}
+[14.895255] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.906283] (rm_serial_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.906621] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.907239] (rm_serial_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.910528] (rm_serial_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[14.942395] (-) TimerEvent: {}
+[14.949038] (dr16_dbus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.991598] (dr16_dbus) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.992042] (dr16_dbus) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.992720] (dr16_dbus) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.995736] (dr16_dbus) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[15.042504] (-) TimerEvent: {}
+[15.142915] (-) TimerEvent: {}
+[15.243299] (-) TimerEvent: {}
+[15.253033] (rm_serial_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.334200] (dr16_dbus) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.343584] (-) TimerEvent: {}
+[15.375924] (rm_serial_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.443657] (-) TimerEvent: {}
+[15.454306] (dr16_dbus) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.543889] (-) TimerEvent: {}
+[15.614871] (rm_serial_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.622217] (rm_serial_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.636148] (rm_serial_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.644085] (-) TimerEvent: {}
+[15.656627] (rm_serial_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.685181] (rm_serial_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.706063] (dr16_dbus) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.713077] (dr16_dbus) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.725195] (dr16_dbus) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.744253] (-) TimerEvent: {}
+[15.744854] (dr16_dbus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.774122] (dr16_dbus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.788830] (rm_serial_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.792504] (rm_serial_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.844450] (-) TimerEvent: {}
+[15.877266] (dr16_dbus) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.881134] (dr16_dbus) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.944736] (-) TimerEvent: {}
+[15.996913] (rm_serial_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.044089] (rm_serial_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.044752] (-) TimerEvent: {}
+[16.095954] (dr16_dbus) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[16.125477] (rm_serial_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.139095] (rm_serial_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.143825] (dr16_dbus) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.144866] (-) TimerEvent: {}
+[16.226339] (dr16_dbus) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.239767] (dr16_dbus) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.244988] (-) TimerEvent: {}
+[16.312643] (rm_serial_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.313678] (rm_serial_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.345214] (-) TimerEvent: {}
+[16.410649] (dr16_dbus) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.411425] (dr16_dbus) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.445465] (-) TimerEvent: {}
+[16.482612] (rm_serial_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.484212] (rm_serial_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.545726] (-) TimerEvent: {}
+[16.613338] (dr16_dbus) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.617888] (dr16_dbus) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.645813] (-) TimerEvent: {}
+[16.746221] (-) TimerEvent: {}
+[16.846628] (-) TimerEvent: {}
+[16.947029] (-) TimerEvent: {}
+[17.047406] (-) TimerEvent: {}
+[17.147789] (-) TimerEvent: {}
+[17.248183] (-) TimerEvent: {}
+[17.348573] (-) TimerEvent: {}
+[17.448966] (-) TimerEvent: {}
+[17.536132] (rm_serial_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[17.537867] (rm_serial_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[17.538084] (rm_serial_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[17.549027] (-) TimerEvent: {}
+[17.649350] (-) TimerEvent: {}
+[17.692045] (dr16_dbus) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[17.693856] (dr16_dbus) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[17.694002] (dr16_dbus) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[17.724106] (rm_serial_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.749633] (-) TimerEvent: {}
+[17.837621] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.838488] (rm_serial_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/include;/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/include/sensebeetle_interfaces\n'}
+[17.838967] (rm_serial_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.849880] (-) TimerEvent: {}
+[17.880760] (dr16_dbus) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.903276] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.904017] (rm_serial_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.912097] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.914637] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.914942] (dr16_dbus) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus/include\n'}
+[17.915049] (dr16_dbus) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.916537] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.916664] (dr16_dbus) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.917342] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.918128] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.918893] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.919514] (dr16_dbus) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.924272] (dr16_dbus) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.929706] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.939519] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.949184] (rm_serial_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.949933] (-) TimerEvent: {}
+[17.995046] (rm_serial_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.000032] (dr16_dbus) StdoutLine: {'line': b'-- Generating done\n'}
+[18.003967] (dr16_dbus) StdoutLine: {'line': b'-- Build files have been written to: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus\n'}
+[18.036082] (rm_serial_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[18.040848] (rm_serial_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver\n'}
+[18.050111] (-) TimerEvent: {}
+[18.054845] (dr16_dbus) CommandEnded: {'returncode': 0}
+[18.056706] (dr16_dbus) JobProgress: {'identifier': 'dr16_dbus', 'progress': 'build'}
+[18.058449] (dr16_dbus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus', '--', '-j8', '-l8'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[18.079822] (rm_serial_driver) CommandEnded: {'returncode': 0}
+[18.082698] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'build'}
+[18.084888] (rm_serial_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver', '--', '-j8', '-l8'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[18.150417] (-) TimerEvent: {}
+[18.155474] (dr16_dbus) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dr16_dbus.dir/src/dr16_dbus.cpp.o\x1b[0m\n'}
+[18.204194] (dr16_dbus) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dr16_dbus_node.dir/rclcpp_components/node_main_dr16_dbus_node.cpp.o\x1b[0m\n'}
+[18.205235] (rm_serial_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rm_serial_driver_node.dir/rclcpp_components/node_main_rm_serial_driver_node.cpp.o\x1b[0m\n'}
+[18.222433] (rm_serial_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o\x1b[0m\n'}
+[18.250501] (-) TimerEvent: {}
+[18.350915] (-) TimerEvent: {}
+[18.451475] (-) TimerEvent: {}
+[18.552283] (-) TimerEvent: {}
+[18.653084] (-) TimerEvent: {}
+[18.753986] (-) TimerEvent: {}
+[18.855668] (-) TimerEvent: {}
+[18.956607] (-) TimerEvent: {}
+[19.057621] (-) TimerEvent: {}
+[19.158521] (-) TimerEvent: {}
+[19.259536] (-) TimerEvent: {}
+[19.360514] (-) TimerEvent: {}
+[19.461497] (-) TimerEvent: {}
+[19.562481] (-) TimerEvent: {}
+[19.663496] (-) TimerEvent: {}
+[19.764476] (-) TimerEvent: {}
+[19.865479] (-) TimerEvent: {}
+[19.966537] (-) TimerEvent: {}
+[20.067565] (-) TimerEvent: {}
+[20.168463] (-) TimerEvent: {}
+[20.269516] (-) TimerEvent: {}
+[20.370489] (-) TimerEvent: {}
+[20.471413] (-) TimerEvent: {}
+[20.572431] (-) TimerEvent: {}
+[20.673513] (-) TimerEvent: {}
+[20.774795] (-) TimerEvent: {}
+[20.875788] (-) TimerEvent: {}
+[20.976853] (-) TimerEvent: {}
+[21.077832] (-) TimerEvent: {}
+[21.178866] (-) TimerEvent: {}
+[21.280865] (-) TimerEvent: {}
+[21.381932] (-) TimerEvent: {}
+[21.483002] (-) TimerEvent: {}
+[21.584592] (-) TimerEvent: {}
+[21.685609] (-) TimerEvent: {}
+[21.786694] (-) TimerEvent: {}
+[21.887758] (-) TimerEvent: {}
+[21.988828] (-) TimerEvent: {}
+[22.089889] (-) TimerEvent: {}
+[22.190847] (-) TimerEvent: {}
+[22.291754] (-) TimerEvent: {}
+[22.392796] (-) TimerEvent: {}
+[22.493823] (-) TimerEvent: {}
+[22.594729] (-) TimerEvent: {}
+[22.695777] (-) TimerEvent: {}
+[22.796819] (-) TimerEvent: {}
+[22.897781] (-) TimerEvent: {}
+[22.998822] (-) TimerEvent: {}
+[23.099919] (-) TimerEvent: {}
+[23.201019] (-) TimerEvent: {}
+[23.302010] (-) TimerEvent: {}
+[23.403087] (-) TimerEvent: {}
+[23.504223] (-) TimerEvent: {}
+[23.605295] (-) TimerEvent: {}
+[23.706334] (-) TimerEvent: {}
+[23.807299] (-) TimerEvent: {}
+[23.908402] (-) TimerEvent: {}
+[24.009476] (-) TimerEvent: {}
+[24.110528] (-) TimerEvent: {}
+[24.211436] (-) TimerEvent: {}
+[24.312454] (-) TimerEvent: {}
+[24.413465] (-) TimerEvent: {}
+[24.514661] (-) TimerEvent: {}
+[24.615685] (-) TimerEvent: {}
+[24.716735] (-) TimerEvent: {}
+[24.817818] (-) TimerEvent: {}
+[24.918807] (-) TimerEvent: {}
+[25.019911] (-) TimerEvent: {}
+[25.120951] (-) TimerEvent: {}
+[25.221902] (-) TimerEvent: {}
+[25.322838] (-) TimerEvent: {}
+[25.423922] (-) TimerEvent: {}
+[25.524838] (-) TimerEvent: {}
+[25.625747] (-) TimerEvent: {}
+[25.726678] (-) TimerEvent: {}
+[25.827638] (-) TimerEvent: {}
+[25.880975] (dr16_dbus) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable dr16_dbus_node\x1b[0m\n'}
+[25.927876] (-) TimerEvent: {}
+[26.022525] (rm_serial_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable rm_serial_driver_node\x1b[0m\n'}
+[26.028257] (-) TimerEvent: {}
+[26.129385] (-) TimerEvent: {}
+[26.176852] (dr16_dbus) StdoutLine: {'line': b'[ 75%] Built target dr16_dbus_node\n'}
+[26.229762] (-) TimerEvent: {}
+[26.291225] (rm_serial_driver) StdoutLine: {'line': b'[ 75%] Built target rm_serial_driver_node\n'}
+[26.330032] (-) TimerEvent: {}
+[26.430854] (-) TimerEvent: {}
+[26.531745] (-) TimerEvent: {}
+[26.632671] (-) TimerEvent: {}
+[26.733615] (-) TimerEvent: {}
+[26.834423] (-) TimerEvent: {}
+[26.935226] (-) TimerEvent: {}
+[27.036100] (-) TimerEvent: {}
+[27.137083] (-) TimerEvent: {}
+[27.237831] (-) TimerEvent: {}
+[27.338260] (-) TimerEvent: {}
+[27.438699] (-) TimerEvent: {}
+[27.539155] (-) TimerEvent: {}
+[27.639747] (-) TimerEvent: {}
+[27.740585] (-) TimerEvent: {}
+[27.841535] (-) TimerEvent: {}
+[27.942472] (-) TimerEvent: {}
+[28.043352] (-) TimerEvent: {}
+[28.144266] (-) TimerEvent: {}
+[28.245245] (-) TimerEvent: {}
+[28.346131] (-) TimerEvent: {}
+[28.447057] (-) TimerEvent: {}
+[28.548028] (-) TimerEvent: {}
+[28.649021] (-) TimerEvent: {}
+[28.749966] (-) TimerEvent: {}
+[28.850910] (-) TimerEvent: {}
+[28.951828] (-) TimerEvent: {}
+[29.052691] (-) TimerEvent: {}
+[29.153607] (-) TimerEvent: {}
+[29.254453] (-) TimerEvent: {}
+[29.355401] (-) TimerEvent: {}
+[29.456305] (-) TimerEvent: {}
+[29.557200] (-) TimerEvent: {}
+[29.658009] (-) TimerEvent: {}
+[29.758938] (-) TimerEvent: {}
+[29.859856] (-) TimerEvent: {}
+[29.960692] (-) TimerEvent: {}
+[30.061501] (-) TimerEvent: {}
+[30.162408] (-) TimerEvent: {}
+[30.263150] (-) TimerEvent: {}
+[30.363576] (-) TimerEvent: {}
+[30.463988] (-) TimerEvent: {}
+[30.564404] (-) TimerEvent: {}
+[30.664822] (-) TimerEvent: {}
+[30.765259] (-) TimerEvent: {}
+[30.865715] (-) TimerEvent: {}
+[30.966133] (-) TimerEvent: {}
+[31.066530] (-) TimerEvent: {}
+[31.167062] (-) TimerEvent: {}
+[31.267855] (-) TimerEvent: {}
+[31.368677] (-) TimerEvent: {}
+[31.469543] (-) TimerEvent: {}
+[31.570357] (-) TimerEvent: {}
+[31.671191] (-) TimerEvent: {}
+[31.762669] (dr16_dbus) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdr16_dbus.so\x1b[0m\n'}
+[31.771252] (-) TimerEvent: {}
+[31.871645] (-) TimerEvent: {}
+[31.972061] (-) TimerEvent: {}
+[32.072489] (-) TimerEvent: {}
+[32.172917] (-) TimerEvent: {}
+[32.273364] (-) TimerEvent: {}
+[32.373829] (-) TimerEvent: {}
+[32.474261] (-) TimerEvent: {}
+[32.574682] (-) TimerEvent: {}
+[32.675160] (-) TimerEvent: {}
+[32.775574] (-) TimerEvent: {}
+[32.876023] (-) TimerEvent: {}
+[32.976565] (-) TimerEvent: {}
+[33.077113] (-) TimerEvent: {}
+[33.177753] (-) TimerEvent: {}
+[34.478150] (-) TimerEvent: {}
+[34.578769] (-) TimerEvent: {}
+[34.679783] (-) TimerEvent: {}
+[34.780875] (-) TimerEvent: {}
+[34.790871] (dr16_dbus) StdoutLine: {'line': b'[100%] Built target dr16_dbus\n'}
+[34.835971] (dr16_dbus) CommandEnded: {'returncode': 0}
+[34.880987] (-) TimerEvent: {}
+[34.946059] (dr16_dbus) JobProgress: {'identifier': 'dr16_dbus', 'progress': 'install'}
+[34.946567] (dr16_dbus) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[34.973493] (dr16_dbus) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[34.974488] (dr16_dbus) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[34.975136] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/lib/dr16_dbus/dr16_dbus_node\n'}
+[34.981217] (-) TimerEvent: {}
+[35.003492] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/include/dr16_dbus/dbus.hpp\n'}
+[35.031932] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/include/dr16_dbus/dr16_dbus.hpp\n'}
+[35.061350] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/library_path.sh\n'}
+[35.081300] (-) TimerEvent: {}
+[35.091820] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/library_path.dsv\n'}
+[35.123521] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/lib/libdr16_dbus.so\n'}
+[35.156024] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/config/dbus_serial_driver.yaml\n'}
+[35.181419] (-) TimerEvent: {}
+[35.185541] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/launch/dr16_dbus.launch.py\n'}
+[35.217470] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/package_run_dependencies/dr16_dbus\n'}
+[35.245330] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/parent_prefix_path/dr16_dbus\n'}
+[35.277222] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/ament_prefix_path.sh\n'}
+[35.281576] (-) TimerEvent: {}
+[35.306211] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/ament_prefix_path.dsv\n'}
+[35.319697] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/path.sh\n'}
+[35.349047] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/path.dsv\n'}
+[35.380143] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.bash\n'}
+[35.381682] (-) TimerEvent: {}
+[35.408405] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.sh\n'}
+[35.437052] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.zsh\n'}
+[35.464592] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.dsv\n'}
+[35.477740] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/package.dsv\n'}
+[35.481757] (-) TimerEvent: {}
+[35.505030] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/packages/dr16_dbus\n'}
+[35.535215] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/rclcpp_components/dr16_dbus\n'}
+[35.562872] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.581895] (-) TimerEvent: {}
+[35.592218] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.621686] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[35.648982] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/dr16_dbusConfig.cmake\n'}
+[35.678660] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/dr16_dbusConfig-version.cmake\n'}
+[35.681970] (-) TimerEvent: {}
+[35.704759] (dr16_dbus) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/package.xml\n'}
+[35.739690] (dr16_dbus) CommandEnded: {'returncode': 0}
+[35.782089] (-) TimerEvent: {}
+[35.882489] (-) TimerEvent: {}
+[35.890748] (dr16_dbus) JobEnded: {'identifier': 'dr16_dbus', 'rc': 0}
+[35.982776] (-) TimerEvent: {}
+[36.083664] (-) TimerEvent: {}
+[36.184545] (-) TimerEvent: {}
+[36.285393] (-) TimerEvent: {}
+[36.386231] (-) TimerEvent: {}
+[36.487092] (-) TimerEvent: {}
+[36.587963] (-) TimerEvent: {}
+[36.688787] (-) TimerEvent: {}
+[36.789623] (-) TimerEvent: {}
+[36.890457] (-) TimerEvent: {}
+[36.991209] (-) TimerEvent: {}
+[37.092026] (-) TimerEvent: {}
+[37.192912] (-) TimerEvent: {}
+[37.293736] (-) TimerEvent: {}
+[37.394491] (-) TimerEvent: {}
+[37.495339] (-) TimerEvent: {}
+[37.596106] (-) TimerEvent: {}
+[37.696993] (-) TimerEvent: {}
+[37.797807] (-) TimerEvent: {}
+[37.898657] (-) TimerEvent: {}
+[37.999520] (-) TimerEvent: {}
+[38.100409] (-) TimerEvent: {}
+[38.201236] (-) TimerEvent: {}
+[38.419809] (-) TimerEvent: {}
+[38.520611] (-) TimerEvent: {}
+[38.621356] (-) TimerEvent: {}
+[38.722097] (-) TimerEvent: {}
+[38.822981] (-) TimerEvent: {}
+[38.923863] (-) TimerEvent: {}
+[39.024690] (-) TimerEvent: {}
+[39.125583] (-) TimerEvent: {}
+[39.226415] (-) TimerEvent: {}
+[39.327275] (-) TimerEvent: {}
+[39.428037] (-) TimerEvent: {}
+[39.528877] (-) TimerEvent: {}
+[39.629676] (-) TimerEvent: {}
+[39.730527] (-) TimerEvent: {}
+[39.831290] (-) TimerEvent: {}
+[39.931841] (-) TimerEvent: {}
+[40.032688] (-) TimerEvent: {}
+[40.133576] (-) TimerEvent: {}
+[40.234328] (-) TimerEvent: {}
+[40.335080] (-) TimerEvent: {}
+[40.435889] (-) TimerEvent: {}
+[40.536637] (-) TimerEvent: {}
+[40.637411] (-) TimerEvent: {}
+[40.738225] (-) TimerEvent: {}
+[40.839031] (-) TimerEvent: {}
+[40.939873] (-) TimerEvent: {}
+[41.040638] (-) TimerEvent: {}
+[41.141481] (-) TimerEvent: {}
+[41.242275] (-) TimerEvent: {}
+[41.343132] (-) TimerEvent: {}
+[41.443993] (-) TimerEvent: {}
+[41.544888] (-) TimerEvent: {}
+[41.645724] (-) TimerEvent: {}
+[41.746603] (-) TimerEvent: {}
+[41.847332] (-) TimerEvent: {}
+[41.947745] (-) TimerEvent: {}
+[42.048124] (-) TimerEvent: {}
+[42.148493] (-) TimerEvent: {}
+[42.248869] (-) TimerEvent: {}
+[42.349250] (-) TimerEvent: {}
+[42.449627] (-) TimerEvent: {}
+[42.549993] (-) TimerEvent: {}
+[42.650388] (-) TimerEvent: {}
+[42.750769] (-) TimerEvent: {}
+[42.851147] (-) TimerEvent: {}
+[42.951523] (-) TimerEvent: {}
+[43.051909] (-) TimerEvent: {}
+[43.152276] (-) TimerEvent: {}
+[43.252647] (-) TimerEvent: {}
+[43.454266] (-) TimerEvent: {}
+[43.554691] (-) TimerEvent: {}
+[43.655075] (-) TimerEvent: {}
+[43.755469] (-) TimerEvent: {}
+[43.855866] (-) TimerEvent: {}
+[43.956262] (-) TimerEvent: {}
+[44.056650] (-) TimerEvent: {}
+[44.157088] (-) TimerEvent: {}
+[44.257508] (-) TimerEvent: {}
+[44.357919] (-) TimerEvent: {}
+[44.458313] (-) TimerEvent: {}
+[44.558717] (-) TimerEvent: {}
+[44.659117] (-) TimerEvent: {}
+[44.759526] (-) TimerEvent: {}
+[44.859919] (-) TimerEvent: {}
+[44.960317] (-) TimerEvent: {}
+[45.060882] (-) TimerEvent: {}
+[45.161771] (-) TimerEvent: {}
+[45.262633] (-) TimerEvent: {}
+[45.363443] (-) TimerEvent: {}
+[45.464224] (-) TimerEvent: {}
+[45.564973] (-) TimerEvent: {}
+[45.665792] (-) TimerEvent: {}
+[45.766623] (-) TimerEvent: {}
+[45.867418] (-) TimerEvent: {}
+[45.968163] (-) TimerEvent: {}
+[46.068947] (-) TimerEvent: {}
+[46.169774] (-) TimerEvent: {}
+[46.270574] (-) TimerEvent: {}
+[46.371345] (-) TimerEvent: {}
+[46.472139] (-) TimerEvent: {}
+[46.573007] (-) TimerEvent: {}
+[46.673863] (-) TimerEvent: {}
+[46.774704] (-) TimerEvent: {}
+[46.875603] (-) TimerEvent: {}
+[46.976278] (-) TimerEvent: {}
+[47.076683] (-) TimerEvent: {}
+[47.177114] (-) TimerEvent: {}
+[47.277546] (-) TimerEvent: {}
+[47.377958] (-) TimerEvent: {}
+[47.478365] (-) TimerEvent: {}
+[47.578811] (-) TimerEvent: {}
+[47.679301] (-) TimerEvent: {}
+[47.779717] (-) TimerEvent: {}
+[47.880193] (-) TimerEvent: {}
+[47.980605] (-) TimerEvent: {}
+[48.081001] (-) TimerEvent: {}
+[48.181393] (-) TimerEvent: {}
+[48.281926] (-) TimerEvent: {}
+[48.382838] (-) TimerEvent: {}
+[48.483720] (-) TimerEvent: {}
+[48.584601] (-) TimerEvent: {}
+[48.685490] (-) TimerEvent: {}
+[48.786352] (-) TimerEvent: {}
+[48.887148] (-) TimerEvent: {}
+[48.987972] (-) TimerEvent: {}
+[49.088842] (-) TimerEvent: {}
+[49.189684] (-) TimerEvent: {}
+[49.290499] (-) TimerEvent: {}
+[49.391247] (-) TimerEvent: {}
+[49.492035] (-) TimerEvent: {}
+[49.592889] (-) TimerEvent: {}
+[49.693731] (-) TimerEvent: {}
+[49.794617] (-) TimerEvent: {}
+[49.895402] (-) TimerEvent: {}
+[49.996256] (-) TimerEvent: {}
+[50.097078] (-) TimerEvent: {}
+[50.197835] (-) TimerEvent: {}
+[50.298688] (-) TimerEvent: {}
+[50.399531] (-) TimerEvent: {}
+[50.500378] (-) TimerEvent: {}
+[50.601147] (-) TimerEvent: {}
+[50.701982] (-) TimerEvent: {}
+[50.802817] (-) TimerEvent: {}
+[50.903690] (-) TimerEvent: {}
+[51.004482] (-) TimerEvent: {}
+[51.105296] (-) TimerEvent: {}
+[51.206203] (-) TimerEvent: {}
+[51.307081] (-) TimerEvent: {}
+[51.407890] (-) TimerEvent: {}
+[51.508702] (-) TimerEvent: {}
+[51.609545] (-) TimerEvent: {}
+[51.710404] (-) TimerEvent: {}
+[51.811210] (-) TimerEvent: {}
+[51.912029] (-) TimerEvent: {}
+[52.012876] (-) TimerEvent: {}
+[52.113732] (-) TimerEvent: {}
+[52.214604] (-) TimerEvent: {}
+[52.315435] (-) TimerEvent: {}
+[52.416246] (-) TimerEvent: {}
+[52.517014] (-) TimerEvent: {}
+[52.617879] (-) TimerEvent: {}
+[52.718672] (-) TimerEvent: {}
+[52.819463] (-) TimerEvent: {}
+[52.920192] (-) TimerEvent: {}
+[53.020959] (-) TimerEvent: {}
+[53.121703] (-) TimerEvent: {}
+[53.222476] (-) TimerEvent: {}
+[53.323285] (-) TimerEvent: {}
+[53.424043] (-) TimerEvent: {}
+[53.524830] (-) TimerEvent: {}
+[53.625643] (-) TimerEvent: {}
+[53.726468] (-) TimerEvent: {}
+[53.827291] (-) TimerEvent: {}
+[53.928040] (-) TimerEvent: {}
+[54.028853] (-) TimerEvent: {}
+[54.129513] (-) TimerEvent: {}
+[54.229906] (-) TimerEvent: {}
+[54.330290] (-) TimerEvent: {}
+[54.430680] (-) TimerEvent: {}
+[54.531111] (-) TimerEvent: {}
+[54.631498] (-) TimerEvent: {}
+[54.731879] (-) TimerEvent: {}
+[54.832265] (-) TimerEvent: {}
+[54.932642] (-) TimerEvent: {}
+[55.033031] (-) TimerEvent: {}
+[55.133397] (-) TimerEvent: {}
+[55.233777] (-) TimerEvent: {}
+[55.334156] (-) TimerEvent: {}
+[55.434539] (-) TimerEvent: {}
+[55.534989] (-) TimerEvent: {}
+[55.635478] (-) TimerEvent: {}
+[55.735926] (-) TimerEvent: {}
+[55.836362] (-) TimerEvent: {}
+[55.936771] (-) TimerEvent: {}
+[56.037169] (-) TimerEvent: {}
+[56.137573] (-) TimerEvent: {}
+[56.237678] (rm_serial_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librm_serial_driver.so\x1b[0m\n'}
+[56.237960] (-) TimerEvent: {}
+[56.338255] (-) TimerEvent: {}
+[56.438672] (-) TimerEvent: {}
+[56.539091] (-) TimerEvent: {}
+[56.639489] (-) TimerEvent: {}
+[56.739878] (-) TimerEvent: {}
+[56.840430] (-) TimerEvent: {}
+[56.941229] (-) TimerEvent: {}
+[56.971283] (rm_serial_driver) StdoutLine: {'line': b'[100%] Built target rm_serial_driver\n'}
+[57.015654] (rm_serial_driver) CommandEnded: {'returncode': 0}
+[57.041416] (-) TimerEvent: {}
+[57.095254] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'install'}
+[57.096697] (rm_serial_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver'], 'cwd': '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sensebeetlev10'), ('USER', 'sensebeetlev10'), ('SSH_CLIENT', '192.168.31.190 56943 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"locale":"en","osLocale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sensebeetlev10'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0dfc7cb-d656-4462-be66-607b9a873551.sock'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sensebeetlev10'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('VSCODE_CLI_REQUIRE_TOKEN', '978f2347-a60b-46ff-9928-ce071f6318dd'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sensebeetlev10/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('VSCODE_AGENT_FOLDER', '/home/sensebeetlev10/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7de03276a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.31.190 56943 192.168.31.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[57.108222] (rm_serial_driver) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[57.108953] (rm_serial_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[57.109456] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node\n'}
+[57.140878] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/include/rm_serial_driver/packet.hpp\n'}
+[57.141518] (-) TimerEvent: {}
+[57.168189] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp\n'}
+[57.197124] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh\n'}
+[57.225688] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv\n'}
+[57.241647] (-) TimerEvent: {}
+[57.254807] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/lib/librm_serial_driver.so\n'}
+[57.282762] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml\n'}
+[57.311954] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py\n'}
+[57.340303] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver\n'}
+[57.341717] (-) TimerEvent: {}
+[57.366712] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver\n'}
+[57.394622] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh\n'}
+[57.426651] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv\n'}
+[57.441845] (-) TimerEvent: {}
+[57.452865] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh\n'}
+[57.482827] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv\n'}
+[57.510903] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash\n'}
+[57.539299] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh\n'}
+[57.541906] (-) TimerEvent: {}
+[57.567414] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh\n'}
+[57.594178] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv\n'}
+[57.620927] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/package.dsv\n'}
+[57.642045] (-) TimerEvent: {}
+[57.648146] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver\n'}
+[57.681822] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver\n'}
+[57.712968] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[57.741526] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[57.742105] (-) TimerEvent: {}
+[57.772041] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[57.801727] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake\n'}
+[57.827832] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake\n'}
+[57.842241] (-) TimerEvent: {}
+[57.856222] (rm_serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/rm_serial_driver/share/rm_serial_driver/package.xml\n'}
+[57.893375] (rm_serial_driver) CommandEnded: {'returncode': 0}
+[57.942362] (-) TimerEvent: {}
+[58.035765] (rm_serial_driver) JobEnded: {'identifier': 'rm_serial_driver', 'rc': 0}
+[58.040586] (-) EventReactorShutdown: {}

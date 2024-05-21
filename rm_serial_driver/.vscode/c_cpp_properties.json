@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus/include/**",
+        "/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

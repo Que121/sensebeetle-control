@@ -1,0 +1,4 @@
+source;share/dr16_dbus/local_setup.bash
+source;share/dr16_dbus/local_setup.dsv
+source;share/dr16_dbus/local_setup.sh
+source;share/dr16_dbus/local_setup.zsh

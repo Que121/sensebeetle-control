@@ -218,33 +218,43 @@ void RMSerialDriver::twistStampedEncodeCallback(
 
   double vx = msg->twist.linear.x;
   double vy = msg->twist.linear.y;
+
   double omega = 0;
-  if (msg->twist.angular.z > 0) {
-    omega = 3 + ((double_t(7) / 1.57) * msg->twist.angular.z);
-  } else if (msg->twist.angular.z < 0) {
-    omega = -3 + ((double_t(7) / 1.57) * msg->twist.angular.z);
+  if (msg->twist.angular.z > 0.05) {
+    omega = msg->twist.angular.z;
+  } else if (msg->twist.angular.z < -0.05) {
+    omega = msg->twist.angular.z;
   }
 
-  // 四个轮子的角度 (60, 120, 240, 300 度转为弧度)
-  std::array<double, 4> angles = {M_PI / 3, 2 * M_PI / 3, 4 * M_PI / 3, 5 * M_PI / 3};
   std::array<std::string *, 4> wheel_velocities{
     &wheel_msg->wheel_1, &wheel_msg->wheel_2, &wheel_msg->wheel_3, &wheel_msg->wheel_4};
 
-  double r = 0.085;  // 轮子到中心的距离，根据你的机器人具体修改
+  double l = 0.21;  // 底盘长度
+  double w = 0.18;  // 底盘宽度
+  double r = 0.03;  // 轮子半径
 
   std::array<double, 4> velocities;
-  for (int i = 0; i < 4; ++i) {
-    if (i > 1) {
-      velocities[i] = -(vx * cos(angles[i]) + vy * sin(angles[i]) + r * omega * sin(angles[i]));
-      // RCLCPP_INFO(this->get_logger(), "Wheel %d velocity: %f", i + 1, velocities[i]);
-    } else {
-      velocities[i] = -(vx * cos(angles[i]) + vy * sin(angles[i]) - r * omega * sin(angles[i]));
-    }
 
-    int velocity_mega = static_cast<int>(std::round(velocities[i] * 10000));
+  for (int i = 0; i < 4; ++i) {
+    switch (i) {
+      case 0:                                              // 右上
+        velocities[i] = -(vx + vy + (l + w) * omega) / r;  //(Vx - Vy + (L + W) * omega) / r
+        break;
+      case 1:                                             // 左上
+        velocities[i] = (vx - vy - (l + w) * omega) / r;  //(Vx + Vy + (L + W) * omega) / r
+        break;
+      case 2:                                             // 左下
+        velocities[i] = (vx + vy - (l + w) * omega) / r;  // (Vx - Vy - (L + W) * omega) / r
+        break;
+      case 3:                                              // 左下
+        velocities[i] = -(vx - vy + (l + w) * omega) / r;  // (Vx + Vy - (L + W) * omega) / r
+        break;
+      default:
+        break;
+    }
+    int velocity_mega = static_cast<int>(std::round(velocities[i] * 1000));
     *wheel_velocities[i] = std::to_string(velocity_mega);
     // RCLCPP_INFO(this->get_logger(), "Wheel %d velocity: %f", i + 1, velocities[i]);
-
     // RCLCPP_INFO(this->get_logger(), "Wheel %d velocity: %s", i + 1, wheel_velocities[i].c_str());
   }
 

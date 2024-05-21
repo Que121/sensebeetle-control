@@ -1,0 +1,87 @@
+[0.039s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.343s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.555s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.556s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.560s] -- Detecting CXX compiler ABI info
+[0.757s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.800s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.142s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.514s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.533s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.685s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.689s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.904s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.952s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Looking for pthread.h
+[2.219s] -- Looking for pthread.h - found
+[2.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.425s] -- Found Threads: TRUE  
+[3.500s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.501s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.501s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.688s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.722s] -- Configured cppcheck include dirs: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus/include
+[3.722s] -- Configured cppcheck exclude dirs and/or files: 
+[3.724s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.724s] -- Configured cpplint exclude dirs and/or files: 
+[3.725s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.726s] -- Added test 'lint_cmake' to check CMake code style
+[3.726s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.727s] -- Added test 'xmllint' to check XML markup files
+[3.732s] -- Configuring done
+[3.808s] -- Generating done
+[3.812s] -- Build files have been written to: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus
+[3.863s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus' returned '0': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sensebeetlev10/sl_ws/src/sensebeetle-control/dr16_dbus -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus
+[3.880s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus -- -j8 -l8
+[3.963s] [ 25%] [32mBuilding CXX object CMakeFiles/dr16_dbus.dir/src/dr16_dbus.cpp.o[0m
+[4.012s] [ 50%] [32mBuilding CXX object CMakeFiles/dr16_dbus_node.dir/rclcpp_components/node_main_dr16_dbus_node.cpp.o[0m
+[11.689s] [ 75%] [32m[1mLinking CXX executable dr16_dbus_node[0m
+[11.985s] [ 75%] Built target dr16_dbus_node
+[17.570s] [100%] [32m[1mLinking CXX shared library libdr16_dbus.so[0m
+[20.599s] [100%] Built target dr16_dbus
+[20.644s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus' returned '0': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus -- -j8 -l8
+[20.756s] Invoking command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus
+[20.781s] -- Install configuration: "RelWithDebInfo"
+[20.782s] -- Execute custom install script
+[20.783s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/lib/dr16_dbus/dr16_dbus_node
+[20.811s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/include/dr16_dbus/dbus.hpp
+[20.840s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/include/dr16_dbus/dr16_dbus.hpp
+[20.869s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/library_path.sh
+[20.899s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/library_path.dsv
+[20.931s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/lib/libdr16_dbus.so
+[20.964s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/config/dbus_serial_driver.yaml
+[20.993s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/launch/dr16_dbus.launch.py
+[21.025s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/package_run_dependencies/dr16_dbus
+[21.053s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/parent_prefix_path/dr16_dbus
+[21.085s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/ament_prefix_path.sh
+[21.114s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/ament_prefix_path.dsv
+[21.127s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/path.sh
+[21.157s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/environment/path.dsv
+[21.188s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.bash
+[21.216s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.sh
+[21.245s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.zsh
+[21.272s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/local_setup.dsv
+[21.285s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/package.dsv
+[21.313s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/packages/dr16_dbus
+[21.343s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/ament_index/resource_index/rclcpp_components/dr16_dbus
+[21.370s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.400s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.430s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/ament_cmake_export_libraries-extras.cmake
+[21.457s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/dr16_dbusConfig.cmake
+[21.486s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/cmake/dr16_dbusConfig-version.cmake
+[21.512s] -- Symlinking: /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/dr16_dbus/share/dr16_dbus/package.xml
+[21.549s] Invoked command in '/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus' returned '0': AMENT_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces:/home/sensebeetlev10/sl_ws/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sensebeetlev10/sl_ws/src/sensebeetle-control/rm_serial_driver/build/dr16_dbus
